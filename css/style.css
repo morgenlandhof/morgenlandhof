@@ -161,3 +161,13 @@ html {
     font-size: 4rem;
     border-bottom: 1px solid #EEEEEE;
 }
+
+.hometext {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.hometext p {
+    font-size: 1.4rem;
+    font-family: 'Montserrat';
+}
