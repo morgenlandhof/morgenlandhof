@@ -100,6 +100,27 @@ html {
     font-size: 62.5%;
 }
 
+.sheepalert {
+    background-color: #000;
+}
+
+.sheepalert p {
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+}
+
+.sheepalert p span {
+    font-weight: 700;
+}
+
+.sheepalert p i {
+    font-size: 2.4rem;
+}
+
 /* =================================================================
                                  NAVBAR STYLES 
 ====================================================================*/
@@ -168,6 +189,111 @@ html {
 }
 
 .hometext p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-family: 'Montserrat';
+}
+
+footer {
+    border-top: 1px solid #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #EEEEEE;
+}
+
+.footerlogo {
+    display: flex;
+    align-items: center;
+}
+
+.footerimg {
+    width: 10vw;
+}
+
+.footerhaedline {
+    font-family: 'Sorts Mill Goudy';
+    font-size: 3rem;
+}
+
+footer div h3 {
+    font-size: 2rem;
+    font-family: 'Sorts Mill Goudy';
+    font-weight: 700;
+}
+
+footer div ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer div ul li a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Sorts Mill Goudy';
+    font-size: 1.8rem;
+}
+
+footer div ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.footerdsgvo {
+    padding-top: 30px;
+}
+
+@media (max-width: 991.98px) {
+
+    .sheepalert p {
+        font-size: 1.4rem;
+    }
+
+    .sheepalert p i {
+        font-size: 1.6rem;
+    }
+
+    .navbarlogo {
+        width: 15vw;
+    }
+
+    .navbarheadline {
+        font-size: 2.4rem;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid #EEEEEE;
+    }
+
+    .nav-link {
+        font-size: 1.8rem;
+    }
+
+    .homehaedline {
+        font-size: 3rem;
+    }
+
+    .hometext {
+        column-count: 1;
+    }
+
+    .hometext p {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    .footerimg {
+        width: 15vw;
+    }
+
+    .footerhaedline {
+        font-size: 2.4rem;
+    }
+
+    .footerdsgvo {
+        padding-top: 0;
+
+    }
 }
