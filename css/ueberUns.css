@@ -36,3 +36,25 @@
     border: 1px solid #EEE;
     box-shadow: 5px 5px 5px gray;
 }
+
+@media (max-width: 991.98px) {
+    .einmorgen div h3 {
+        font-size: 2.2rem;
+    }
+
+    .einmorgen div p {
+        font-size: 1.4rem;
+    }
+
+    .einmorgen {
+        grid-template-columns: 1fr;
+    }
+
+    .einmorgen div img {
+        width: 100vw;
+        height: 100vw;
+        padding: 0;
+        border: none;
+        box-shadow: none;
+    }
+}
