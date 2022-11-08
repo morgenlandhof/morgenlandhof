@@ -1,0 +1,38 @@
+.ueberunshero img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 70vh;
+}
+
+.einmorgen div h3 {
+    font-family: 'Sorts Mill Goudy';
+    font-size: 3rem;
+}
+
+.einmorgen div p {
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+}
+
+.einmorgen {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.einmorgen div {
+    display: flex;
+    flex-direction: column;
+}
+
+.einmorgen div img {
+    width: 15vw;
+    height: 15vw;
+    align-self: center;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    object-position: center;
+    padding: 5px;
+    border: 1px solid #EEE;
+    box-shadow: 5px 5px 5px gray;
+}
