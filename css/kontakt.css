@@ -1,0 +1,44 @@
+.kontakt {
+    display: flex;
+    padding: 0;
+}
+
+.kontakt div {
+    width: 50%;
+}
+
+.kontakt div:first-of-type {
+    padding: 10vh;
+}
+
+.kontakt div:first-of-type h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+.kontakt div:first-of-type h3 {
+    font-family: 'Sorts Mill Goudy';
+    font-size: 2.4rem;
+}
+
+.kontakt div:first-of-type h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.kontakt div:first-of-type p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+.kontakt div:first-of-type p i {
+    font-size: 2rem;
+}
+
+.kontakt div img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

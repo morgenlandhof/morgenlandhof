@@ -124,6 +124,13 @@ html {
 /* =================================================================
                                  NAVBAR STYLES 
 ====================================================================*/
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 2000;
+}
+
 .navbar-brand {
     align-items: center;
     display: flex;

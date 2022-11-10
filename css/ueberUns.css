@@ -7,7 +7,7 @@
 
 .einmorgen div h3 {
     font-family: 'Sorts Mill Goudy';
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .einmorgen div p {
@@ -35,6 +35,13 @@
     padding: 5px;
     border: 1px solid #EEE;
     box-shadow: 5px 5px 5px gray;
+    transition: width 2s, height 2s;
+
+}
+
+.einmorgen div img:hover {
+    width: 18vw;
+    height: 18vw;
 }
 
 @media (max-width: 991.98px) {
