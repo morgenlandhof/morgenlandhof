@@ -67,6 +67,11 @@
         transition: none;
     }
 
+    .einmorgen div img:hover {
+        width: 100vw;
+        height: 100vw;
+    }
+
     .smnone {
         display: none;
     }
