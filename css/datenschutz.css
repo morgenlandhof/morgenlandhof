@@ -1,0 +1,22 @@
+.datenschutz p {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+}
+
+.datenschutz h2 {
+    font-family: 'Sorts Mill Goudy';
+    font-size: 2.6rem;
+}
+
+.datenschutz h3 {
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.datenschutz ul li {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+}

@@ -15,15 +15,15 @@
     font-family: 'Montserrat';
 }
 
-.einmorgen {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+.gallery {
+    display: flex;
+    justify-content: space-around;
 }
 
-.einmorgen div {
+/* .einmorgen div {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .einmorgen div img {
     width: 15vw;
@@ -53,8 +53,9 @@
         font-size: 1.4rem;
     }
 
-    .einmorgen {
-        grid-template-columns: 1fr;
+    .einmorgen div {
+        display: flex;
+        flex-direction: column;
     }
 
     .einmorgen div img {
@@ -63,5 +64,20 @@
         padding: 0;
         border: none;
         box-shadow: none;
+        transition: none;
+    }
+
+    .smnone {
+        display: none;
+    }
+}
+
+@media (min-width: 2000px) {
+    .einmorgen div h3 {
+        font-size: 2.6rem;
+    }
+
+    .einmorgen div p {
+        font-size: 1.8rem;
     }
 }

@@ -1,0 +1,16 @@
+.impressum article p {
+    margin: 0;
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+}
+
+.impressum article h3 {
+    font-family: 'Sorts Mill Goudy';
+    font-size: 2.6rem;
+}
+
+.impressum article h4 {
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
