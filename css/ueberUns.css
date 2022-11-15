@@ -5,6 +5,10 @@
     height: 70vh;
 }
 
+.einmorgen {
+    display: flex;
+}
+
 .einmorgen div h3 {
     font-family: 'Sorts Mill Goudy';
     font-size: 2rem;
@@ -15,36 +19,32 @@
     font-family: 'Montserrat';
 }
 
-.gallery {
-    display: flex;
-    justify-content: space-around;
+.einmorgentext {
+    width: 60%;
 }
 
-/* .einmorgen div {
-    display: flex;
-    flex-direction: column;
-} */
+.gallery {
+    width: 40%;
+}
 
 .einmorgen div img {
-    width: 15vw;
-    height: 15vw;
+    width: 100%;
+    height: 100%;
     align-self: center;
-    /* border-radius: 50%; */
     object-fit: cover;
     object-position: center;
-    padding: 5px;
-    border: 1px solid #EEE;
-    box-shadow: 5px 5px 5px gray;
-    transition: width 2s, height 2s;
-
-}
-
-.einmorgen div img:hover {
-    width: 18vw;
-    height: 18vw;
 }
 
 @media (max-width: 991.98px) {
+
+    .einmorgen {
+        flex-direction: column;
+    }
+
+    .einmorgen:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
     .einmorgen div h3 {
         font-size: 2.2rem;
     }
@@ -53,27 +53,13 @@
         font-size: 1.4rem;
     }
 
-    .einmorgen div {
-        display: flex;
-        flex-direction: column;
-    }
-
     .einmorgen div img {
         width: 100vw;
         height: 100vw;
-        padding: 0;
-        border: none;
-        box-shadow: none;
-        transition: none;
     }
 
-    .einmorgen div img:hover {
-        width: 100vw;
-        height: 100vw;
-    }
-
-    .smnone {
-        display: none;
+    .einmorgentext {
+        width: 100%;
     }
 }
 
