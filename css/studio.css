@@ -1,0 +1,61 @@
+.studio {
+}
+
+.studioimg1, .studioimg2 {
+    height: 100vh;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.studioimg1 {
+    background-image: url('../images/290823_schafeaufweide.jpg');
+}
+
+.studioimg2 {
+    background-image: url('../images/310823_aussichtaufkirchturm.jpg');
+}
+
+.studiotext {
+}
+
+.studiotext p,
+.studiotext ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+.zentrum {
+    text-align: center;
+}
+
+.zitat {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 2.4rem;
+    font-style: italic;
+    padding: 0;
+}
+
+.preis {
+    text-align: right;
+}
+
+@media (max-width: 991.98px) {
+    .rentaschaf {
+        flex-direction: column;
+    }
+
+    .rentaschafimg {
+        width: 100%;
+    }
+
+    .rentaschaftext {
+        width: 100%;
+    }
+
+    .studioimg1, .studioimg2 {
+        background-attachment: scroll;
+    }
+    
+}
