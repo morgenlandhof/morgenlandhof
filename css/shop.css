@@ -1,7 +1,7 @@
 .studio {
 }
 
-.studioimg1, .studioimg2 {
+/* .studioimg1, .studioimg2 {
     height: 100vh;
     background-attachment: fixed;
   background-position: center;
@@ -15,7 +15,7 @@
 
 .studioimg2 {
     background-image: url('../images/310823_aussichtaufkirchturm.jpg');
-}
+} */
 
 .studiotext {
 }
