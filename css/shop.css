@@ -1,24 +1,8 @@
-.studio {
+.shophaedline {
+    font-family: 'Sorts Mill Goudy';
+    font-size: 4rem;
 }
 
-/* .studioimg1, .studioimg2 {
-    height: 100vh;
-    background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} 
-
-.studioimg1 {
-    background-image: url('../images/290823_schafeaufweide.jpg');
-}
-
-.studioimg2 {
-    background-image: url('../images/310823_aussichtaufkirchturm.jpg');
-} */
-
-.studiotext {
-}
 
 .studiotext p,
 .studiotext ul li {
@@ -39,6 +23,86 @@
 
 .preis {
     text-align: right;
+}
+
+.shopnavi {
+    background-color: #EEEEEE;
+    position: fixed;
+    top:15vh;
+    width: 100vw;
+}
+
+.briefkastenhero {
+background-image: url("../images/blumenkasten.png");
+background-size: 100vw auto;
+background-position-y: center;
+height: 70vh;
+color: #fff;
+text-align: center;
+margin-top: 15vh;
+}
+
+.schafeshophero {
+    background-image: url("../images/ostfriesische_milchschafe_morgenlandhof_waigolshausen.JPG");
+background-size: 100vw auto;
+background-position-y: center;
+height: 70vh;
+color: #fff;
+text-align: center;
+}
+
+.wieseshophero {
+    background-image: url("../images/unsereWiese.jpg");
+background-size: 100vw auto;
+background-position-y: center;
+height: 70vh;
+color: #fff;
+text-align: center;
+}
+
+.kaninchenshophero {
+   background-image: url("../images/kaninchen_morgenlandhof_waigolshausen_felle.JPG");
+background-size: 100vw auto;
+background-position-y: center;
+height: 70vh;
+color: #fff;
+text-align: center; 
+}
+
+.briefkastenhero h2, .schafeshophero h2, .wieseshophero h2, .kaninchenshophero h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 25vh;
+}
+
+.briefkastenhero p, .schafeshophero p, .wieseshophero p, .kaninchenshophero p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 300;
+    padding-top: 5vh;
+}
+
+.shop_overview_img {
+    width:20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.col {
+    width:21vw;
+    flex: 1 0 21vw;
+}
+
+.productoverview:hover {
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 10px 13px -7px #eeeeee;
+}
+
+.productoverview a {
+    color: #000;
+    text-decoration: none;
 }
 
 @media (max-width: 991.98px) {

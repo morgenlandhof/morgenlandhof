@@ -1,0 +1,15 @@
+.produktbeschreibung h1 {
+    font-size: 6rem;
+    font-family: 'Sorts Mill Goudy', serif;
+}
+p {
+font-size: 1.6rem;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+.produktbeschreibung 
+.preis {
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
